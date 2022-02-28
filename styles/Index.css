@@ -1,0 +1,96 @@
+header {
+    height: none;
+    padding: none;
+    border: none;
+
+}
+
+main {
+  
+    min-height: 100vh;
+    background: rgb(85, 80, 192);
+
+    animate__bounceInDown
+}
+
+.container {
+    width: 40%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px; 
+}
+
+.card {
+    max-width:400px;
+    max-height: 200px;
+    display: flex;
+    position: center;
+    background-color: rgb(55, 218, 182);
+    border: 2px#05e45a;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    animation: cardZoom 1s ease infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+
+}
+
+@keyframes cardZoom {
+    from {transform: rotate(0);}
+    to {transform: rotate(360);}
+
+}
+
+.card__title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: rgb(51, 51, 255);
+}
+
+.card__img {
+    use
+    width: 210px;
+    height: 180px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    animation: imgZoom 3.5s ease infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    
+}
+
+img:hover {
+    
+}
+
+
+.btn {
+    position: absolute;
+    justify-content: center;
+    width: 80%;
+    height: 30px;
+    border: 2px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: rgb(226, 27, 210);
+    font-style: ;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition:  2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(2, 116, 151);
+    transition:  2s ease-in-out;
+    
+}
